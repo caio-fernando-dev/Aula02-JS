@@ -23,3 +23,55 @@ console.log("estudante: ", estudante, "- tipo: ", typeof estudante)
 // let desejaContinar = confirm("Deseja Realmente Continuar?")
 // console.log("Resposta: ", desejaContinar)
 
+
+// Operadores (Aritméticos, comparação e lógicos)
+// -> Aritmeticos
+console.log("")
+
+let soma = 10 + 5;
+console.log("soma: ", soma);
+
+let multiplicacao = 4 * 2;
+console.log("multiplicacao: ", multiplicacao);
+
+let subtracao = 10 - 5;
+console.log("subtracao: ", subtracao);
+
+let resto = 10 % 3;
+console.log("resto: ", resto);
+
+let divisao = 5 / 3;
+console.log("divisao: ", divisao)
+
+
+// -> Comparação
+console.log("")
+
+let a = 10;
+let b = "10";
+
+// = ->  atribuição
+// == -> compara valor
+// === -> compara valor e tipo
+
+console.log("a = 10")
+console.log("b = '10'")
+
+console.log("a == b? ", a == b)
+console.log("a === b?", a === b)
+
+console.log("a > b? ", a > b)
+console.log("a >= b? ", a >= b)
+
+console.log("a != b?", a != b)
+
+console.log("(a + b) && (a - b)", (a + b) && (a - b))
+console.log("(a < b) && (a > b)", (a < b) && (a > b))
+console.log("(a > 20) || (b >= a)", (a > 20) || (b >= a))
+
+console.log("")
+
+let temIdade = 18;
+let habilitacao = true;
+let dirigir = (temIdade >= 18) && habilitacao;
+console.log("O usuário pode dirigir?", dirigir)
