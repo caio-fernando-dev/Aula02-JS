@@ -75,3 +75,28 @@ let temIdade = 18;
 let habilitacao = true;
 let dirigir = (temIdade >= 18) && habilitacao;
 console.log("O usuário pode dirigir?", dirigir)
+
+
+// Estrutura condicional
+// if
+// if else
+// if encadeado
+// switch
+// ternário
+
+// if
+console.log("")
+console.log("if")
+if (true){
+    console.log("Verdadeiro")
+}
+
+// if else
+console.log("")
+console.log("if else")
+if (true) {
+    console.log("Verdadeiro")
+} else {
+    console.log("Falso")
+}
+
