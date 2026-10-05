@@ -87,7 +87,7 @@ console.log("O usuário pode dirigir?", dirigir)
 // if
 console.log("")
 console.log("if")
-if (true){
+if (true) {
     console.log("Verdadeiro")
 }
 
@@ -100,3 +100,76 @@ if (true) {
     console.log("Falso")
 }
 
+// if else encadeado
+console.log("\n")
+console.log("if encadeado")
+let nota = 7;
+if (nota <= 8) {
+    console.log("Aprovado com sucesso")
+}
+else if (nota >= 6) {
+    console.log("Ficou de exame")
+}
+else {
+    console.log("Reprovado")
+}
+
+// switch case
+console.log("\n")
+console.log("switch case")
+let diaSemana = 3;
+switch (diaSemana) {
+    case 1:
+        console.log("Segunda-feira")
+        break;
+    case 2:
+        console.log("Terça-feira")
+        break;
+    case 3:
+        console.log("Quarta-feira")
+        break;
+    case 4:
+        console.log("Quinta-feira")
+        break;
+    case 5:
+        console.log("Sexta-feira")
+        break;
+    case 6:
+        console.log("Sábado")
+        break;
+    case 7:
+        console.log("Domingo")
+        break;
+    default:
+        console.log("data inválida");
+        break;
+}
+
+
+// ternário
+console.log("\n");
+console.log("operador ternário");
+let notaUsuario = (nota >= 6) ? "Aprovado" : "Reprovado";
+console.log(notaUsuario);
+
+let idade1 = 18;
+let podePilotar = idade >= 18 ? "Pode pilotar" : "Não pode pilotar";
+console.log(podePilotar);
+
+// ternário encadeado
+let resultado = 120;
+let jogador = resultado <= 10 ? "Jogo Bom" :
+    resultado <= 20 ? "Jogo Médio" :
+        resultado <= 100 ? "Jogo Alto" : "Jogo Extraordinário";
+console.log(jogador)
+
+// let nome1 = prompt("qual o seu nome?")
+// let mensagem = nome1 ? `Olá, dev ${nome1}` : "você não digitou"
+// console.log(mensagem)
+
+
+// for 
+console.log("\n")
+for (let numero = 1; numero <= 10; numero++) {
+    console.log(numero)
+}
